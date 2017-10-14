@@ -1,0 +1,26 @@
+{
+  "name": "gig2",
+  "version": "1.0.0",
+  "description": "Create two microservices for real time messages using websockets, and at least one demo subscriber.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "module_name": "^1.0.0",
+    "should": "^13.1.1",
+    "tasks": "^0.0.3",
+    "stomp-broker-js": "^1.1.1",
+    "winston": "^2.4.0",
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Mario Castillo",
+  "license": "ISC"
+}
