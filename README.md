@@ -5,13 +5,13 @@ Create two microservices for real time messages using websockets, and at least o
 For getting this project up and running you need NodeJS, NPM on your machine and then access to a RabbitMQ server.
 
 # Installation
-The project includes the 'package.json' file to properly install all the dependencies by running the command:
+The project includes the 'package.json' file to properly install all the dependencies by running the command from the root folder:
 
 npm install
 
 # Running the server & client
 The project includes a web client for the socket.io, so we only have to run the server, and both the socket and the client will be available if the connection against the RabbitMQ server is correctly configured.
-To start the server you only have to run the command:
+To start the server you only have to run the command from the root folder:
 
 node server.js
 
