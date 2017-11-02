@@ -1,4 +1,4 @@
-# GiG
+# WebSocket
 Create two microservices for real time messages using websockets, and at least one demo subscriber.
 
 # Requirements
@@ -24,7 +24,7 @@ mocha -R spec
 
 # Client
 To access the web client at the following url:
-<server ip>:5000
+'server ip':5000
 
 # References
 - Socket Setup & Mocha Test: http://liamkaufman.com/blog/2012/01/28/testing-socketio-with-mocha-should-and-socketio-client/
